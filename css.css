@@ -1,0 +1,88 @@
+
+body {
+  background-color: #312E2B;
+  margin: 25px;
+  font-family: Verdana;
+  font-size: 1em;
+  text-align: center;
+}
+
+/* Applies to all <h1>...</h1> elements. */
+p1 {
+  font-size: 1em;
+  font-weight: 800;
+  margin-top: 5px;
+  text-align: center;
+  color: #B7B3A5;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  background-color: #262522;
+  opacity: 80%;
+}
+th {
+  width: 25%;
+  color: white;
+}
+
+th, td {
+  font-size: 1em;
+  padding : 10px;
+  font-weight: thin;
+  border: 1px solid black;
+  text-align: center;
+}
+td {
+  color: #D1D1D1;
+}  
+
+
+
+#username {
+  font-size: 1em;
+  width:9em;
+  padding:10px;
+  box-sizing: border-box;
+  border-style:rounded;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  text-align: left;
+  background-color: rgba(107, 104, 96, 0.7);
+  color: white;
+  box-shadow: 5px 5px 7px #21201D, -5px -5px 7px #3F3E38;
+
+}
+#username:hover{
+  border: 1px solid white;
+}
+::placeholder {
+  color: white;
+  opacity: 40%;
+}
+
+#submit {
+  color: white;
+  font-size: 1em;
+  width:5em;
+  padding:5px;
+  box-sizing: border-box;
+  border-style:rounded;;
+  border-width: 0px;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #262522;
+  font-weight: thin;
+  box-shadow: 5px 5px 7px #21201D, -5px -5px 7px #3F3E38;
+}
+#submit:hover {
+  background-color: #474540;
+}
+#ErrorMessage{
+  display: none;
+  color: #A50008;
+}

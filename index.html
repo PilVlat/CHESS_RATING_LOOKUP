@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="ISO-8859-1"/>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<title>Title</title>
+</head>
+
+<body>
+	<form action="" id="usernameForm">
+		<p1>Enter your chess.com username in the box below</p1><br><br>
+		<input type="text" id="username" name="username" placeholder="Username"><br><br>
+		<button type="submit" id="submit">Search</button><br><br>
+		<p1 id="ErrorMessage">The account specified was not found</p1>
+	</form>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Blitz Rating</th>
+				<th>Bullet Rating</th>
+				<th>Rapid Rating</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td id="blitz_rating" value="Unknown"></td>
+				<td id="bullet_rating" value="Unknown"></td>
+				<td id="rapid_rating" value="Unknown"></td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+<script src="script.js"></script>
+</html>
